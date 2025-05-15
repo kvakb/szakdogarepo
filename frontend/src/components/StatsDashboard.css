@@ -1,0 +1,71 @@
+.stats-dashboard {
+    padding: 2rem;
+    background-color: #f4f6f8;
+    font-family: 'Poppins';
+    min-height: 100vh;
+    color: #333;
+}
+
+.stats-dashboard h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.stat-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.stat-card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2a7fff;
+}
+
+.chart-section {
+    background: #ffffff;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.chart-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.recharts-wrapper {
+    margin-top: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .stat-card, .chart-section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .stats-dashboard h2 {
+        font-size: 2rem;
+    }
+
+    .chart-section h3 {
+        font-size: 1.2rem;
+    }
+}

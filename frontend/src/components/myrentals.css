@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* azonos a container színével */
+}
+
+.my-rentals-container {
+    max-width: 1000px;
+    margin: 3rem auto 0 auto; /* felső margó hozzáadva */
+    padding: 2rem;
+    font-family: 'Poppins';
+    background-color: #f5f7fa;
+}
+
+
+.my-rentals-container h2 {
+    font-size: 1.8rem;
+    margin: 3rem auto 0 auto;
+    color: #2c3e50;
+}
+
+.loading,
+.no-rentals {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+}
+
+.rental-card {
+    background: #ffffff;
+    padding: 1.5rem 2rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.rental-card:hover {
+    transform: translateY(-5px);
+}
+
+.rental-card p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.rental-id {
+    font-weight: 600;
+    color: #2980b9;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.rental-total {
+    font-size: 1.05rem;
+    color: #16a085;
+    font-weight: 600;
+}
+
+.rental-status {
+    font-weight: 500;
+    color: #8e44ad;
+}
+
+.rental-items {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.rental-items p {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.rental-items ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.rental-items li {
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.rental-created {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* Animáció */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

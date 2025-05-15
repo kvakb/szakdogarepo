@@ -1,0 +1,137 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Poppins';
+    position: sticky; /* Maradjon a tetején görgetéskor */
+    top: 0; /* A képernyő tetejére tapad */
+    z-index: 1000; /* Biztosítja, hogy más elemek felett legyen */
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Dark grey color */
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #555; /* Medium grey color for links */
+    font-size: 1em;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar-links a:hover {
+    color: #007bff; /* Bootstrap primary blue on hover */
+}
+
+/* Style for the cart count span */
+.navbar-links a span {
+    font-size: 0.9em;
+    color: #dc3545; /* Red color for count */
+    font-weight: bold;
+}
+
+
+.navbar-auth {
+    display: flex;
+    /* Az alapértelmezett flex-direction: row; így egymás mellett lesznek */
+    /* Ha az előző próbálkozásból itt maradt, TÖRÖLD a flex-direction: column; sort! */
+    /* flex-direction: column; <--- TÖRLÉS */
+
+    /* Ez a szabály a függőleges középre igazítást végzi */
+    align-items: center;
+}
+
+.navbar-auth span {
+    /* Adjunk nagyobb jobb oldali margót a kívánt távolsághoz */
+    margin-right: 25px; /* Ezt az értéket állíthatod be a kívánt távolsághoz */
+
+    /* Töröld vagy nullázd (pl. 0) a margin-bottom sort, ha az előző próbálkozásból itt maradt! */
+    /* margin-bottom: 8px; <--- TÖRLÉS */
+
+    color: #333;
+}
+
+.navbar-button {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none; /* Remove underline from Link acting as button */
+    margin-left: 10px; /* Space between buttons (ha van több a auth divben) */
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensure padding and margin work */
+}
+
+.navbar-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.navbar-button-register {
+    background-color: #28a745; /* Bootstrap success green */
+}
+
+.navbar-button-register:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Reszponzív beállítások (opcionális, de ajánlott) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Kisebb képernyőn oszlopba rendeződnek */
+        align-items: flex-start; /* Balra igazítják az elemeket */
+        padding: 10px;
+    }
+
+    .navbar-links {
+        flex-direction: column; /* A linkek is egymás alá kerülnek */
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-links li {
+        margin: 5px 0; /* Függőleges térköz a linkek között */
+    }
+
+    .navbar-auth {
+        flex-direction: column; /* Az autentikációs gombok/név is oszlopba kerülnek */
+        width: 100%;
+        align-items: flex-start; /* Balra igazítás */
+    }
+
+    .navbar-auth span {
+        margin-right: 0; /* Nincs jobb margó */
+        margin-bottom: 5px; /* Kis alsó margó */
+    }
+
+    .navbar-button {
+        width: auto; /* Gombok nem töltik ki a teljes szélességet, ha nem kell */
+        margin-left: 0; /* Nincs bal margó */
+        margin-top: 5px; /* Kis felső margó a gombnak */
+    }
+
+    .navbar-button:first-child {
+        margin-top: 0; /* Az első gomb (ha van bejelentkező is) ne kapjon felső margót */
+    }
+}

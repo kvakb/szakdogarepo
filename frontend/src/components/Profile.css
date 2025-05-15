@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    font-family: 'Poppins';
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 4rem auto;
+    background: #ffffff;
+    padding: 3rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.profile-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile-form label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form input {
+    margin-top: 0.4rem;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s ease;
+}
+
+.profile-form input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.15);
+}
+
+.profile-form button {
+    margin-top: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.profile-form button:hover {
+    background-color: #2980b9;
+}
+
+.profile-form .error {
+    color: #e74c3c;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: -0.5rem;
+    text-align: center;
+}
+
+.profile-form .success {
+    color: #27ae60;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: -0.5rem;
+    text-align: center;
+}

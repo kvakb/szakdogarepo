@@ -1,0 +1,380 @@
+[
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "DJI",
+    "status": "available",
+    "description": "DJI drone with 20 MP camera",
+    "price": 8000,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/dji-air-2s.jpg",
+    "createdAt": {
+      "_seconds": 1747211273,
+      "_nanoseconds": 0
+    },
+    "name": "DJI Air 2S",
+    "details": {
+      "model": "djiair2s",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 595,
+      "dimensions": {
+        "width": 180,
+        "length": 250,
+        "height": 80
+      },
+      "maxFlightTime": 31,
+      "maxSpeed": 19,
+      "maxRange": 18000,
+      "maxAltitude": 5000,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 20,
+      "gimbal": true,
+      "batteryCapacityMah": 3500,
+      "chargingTimeMinutes": 60,
+      "remoteController": true,
+      "packageContents": "DJI Air 2S, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "Parrot",
+    "status": "available",
+    "description": "Parrot drone with 21 MP camera",
+    "price": 8500,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/parrot-anafi.jpg",
+    "createdAt": {
+      "_seconds": 1747211293,
+      "_nanoseconds": 0
+    },
+    "name": "Parrot Anafi",
+    "details": {
+      "model": "anafi",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 320,
+      "dimensions": {
+        "width": 130,
+        "length": 240,
+        "height": 65
+      },
+      "maxFlightTime": 25,
+      "maxSpeed": 15,
+      "maxRange": 4000,
+      "maxAltitude": 4500,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 21,
+      "gimbal": true,
+      "batteryCapacityMah": 2700,
+      "chargingTimeMinutes": 120,
+      "remoteController": true,
+      "packageContents": "Parrot Anafi, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "Autel",
+    "status": "available",
+    "description": "Autel drone with 50 MP camera",
+    "price": 9000,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/autel-evo-nano+.jpg",
+    "createdAt": {
+      "_seconds": 1747211313,
+      "_nanoseconds": 0
+    },
+    "name": "Autel EVO Nano+",
+    "details": {
+      "model": "evoNanoPlus",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 249,
+      "dimensions": {
+        "width": 140,
+        "length": 220,
+        "height": 65
+      },
+      "maxFlightTime": 28,
+      "maxSpeed": 16,
+      "maxRange": 10000,
+      "maxAltitude": 4000,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 50,
+      "gimbal": true,
+      "batteryCapacityMah": 2250,
+      "chargingTimeMinutes": 90,
+      "remoteController": true,
+      "packageContents": "Autel EVO Nano+, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "DJI",
+    "status": "available",
+    "description": "DJI drone with 48 MP camera",
+    "price": 9500,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/dji-mini-3-pro.jpg",
+    "createdAt": {
+      "_seconds": 1747211333,
+      "_nanoseconds": 0
+    },
+    "name": "DJI Mini 3 Pro",
+    "details": {
+      "model": "djimini3pro",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 249,
+      "dimensions": {
+        "width": 145,
+        "length": 171,
+        "height": 62
+      },
+      "maxFlightTime": 34,
+      "maxSpeed": 16,
+      "maxRange": 12000,
+      "maxAltitude": 4000,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 48,
+      "gimbal": true,
+      "batteryCapacityMah": 2453,
+      "chargingTimeMinutes": 64,
+      "remoteController": true,
+      "packageContents": "DJI Mini 3 Pro, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "Ryze",
+    "status": "available",
+    "description": "Ryze drone with 5 MP camera",
+    "price": 10000,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/ryze-tello.jpg",
+    "createdAt": {
+      "_seconds": 1747211353,
+      "_nanoseconds": 0
+    },
+    "name": "Ryze Tello",
+    "details": {
+      "model": "tello",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 80,
+      "dimensions": {
+        "width": 98,
+        "length": 92.5,
+        "height": 41
+      },
+      "maxFlightTime": 13,
+      "maxSpeed": 8,
+      "maxRange": 100,
+      "maxAltitude": 30,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 5,
+      "gimbal": true,
+      "batteryCapacityMah": 1100,
+      "chargingTimeMinutes": 90,
+      "remoteController": true,
+      "packageContents": "Ryze Tello, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "PowerVision",
+    "status": "available",
+    "description": "PowerVision drone with 12 MP camera",
+    "price": 10500,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/powervision-poweregg-x.jpg",
+    "createdAt": {
+      "_seconds": 1747211373,
+      "_nanoseconds": 0
+    },
+    "name": "PowerVision PowerEgg X",
+    "details": {
+      "model": "powereggx",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 860,
+      "dimensions": {
+        "width": 165,
+        "length": 165,
+        "height": 100
+      },
+      "maxFlightTime": 30,
+      "maxSpeed": 18,
+      "maxRange": 6000,
+      "maxAltitude": 3500,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 12,
+      "gimbal": true,
+      "batteryCapacityMah": 3800,
+      "chargingTimeMinutes": 120,
+      "remoteController": true,
+      "packageContents": "PowerVision PowerEgg X, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/rcnQQKnFPX7oHCbIAdVL",
+    "categoryName": "drone",
+    "brand": "Hubsan",
+    "status": "available",
+    "description": "Hubsan drone with 48 MP camera",
+    "price": 11000,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/hubsan-zino-mini-pro.jpg",
+    "createdAt": {
+      "_seconds": 1747211393,
+      "_nanoseconds": 0
+    },
+    "name": "Hubsan Zino Mini Pro",
+    "details": {
+      "model": "zinominipro",
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            25,
+            30,
+            60
+          ]
+        }
+      ],
+      "weight": 249,
+      "dimensions": {
+        "width": 137,
+        "length": 202,
+        "height": 61
+      },
+      "maxFlightTime": 40,
+      "maxSpeed": 16,
+      "maxRange": 10000,
+      "maxAltitude": 4000,
+      "gps": true,
+      "obstacleAvoidance": true,
+      "returnToHome": true,
+      "sensorSize": {
+        "width": 100,
+        "height": 120
+      },
+      "megapixels": 48,
+      "gimbal": true,
+      "batteryCapacityMah": 2400,
+      "chargingTimeMinutes": 90,
+      "remoteController": true,
+      "packageContents": "Hubsan Zino Mini Pro, controller, battery, charger",
+      "followMeMode": true,
+      "mobileAppSupport": true
+    }
+  }
+]

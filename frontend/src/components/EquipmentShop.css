@@ -1,0 +1,180 @@
+/* --- Alap layout --- */
+.equipment-shop {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: 'Poppins';
+    background: #f4f6f8;
+    flex-wrap: wrap;
+}
+
+/* --- Szűrők oldalsáv --- */
+.filters {
+    flex: 0 0 340px;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+    position: sticky;
+    top: 1rem;
+    align-self: flex-start;
+}
+
+.filters h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Szűrőelemek */
+.filters label {
+    display: block;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.filters input[type="text"],
+.filters input[type="number"],
+.filters select {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    margin-top: 0.4rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fdfdfd;
+    font-size: 0.95rem;
+    transition: border 0.2s ease;
+    box-sizing: border-box;
+}
+
+.filters input:focus,
+.filters select:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.15);
+}
+
+/* Dátumszűrők */
+.date-filters {
+    margin-bottom: 2rem;
+}
+
+.date-filters label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+
+/* Checkbox & Boolean */
+.filters input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* --- rc-slider --- */
+.rc-slider {
+    margin-top: 1rem;
+    padding: 15px 0;
+}
+
+.rc-slider-rail {
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+.rc-slider-track {
+    height: 6px;
+    background-color: #2196f3;
+    border-radius: 3px;
+}
+
+.rc-slider-handle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #2196f3;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.rc-slider-handle:hover,
+.rc-slider-handle:focus,
+.rc-slider-handle:active {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 5px rgba(25, 118, 210, 0.15);
+}
+
+/* --- Termékek --- */
+.products {
+    flex: 1;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.product-card h3 {
+    margin: 0.8rem 0 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+.product-card p {
+    margin: 0.2rem 0 0.6rem;
+    font-size: 0.95rem;
+    padding: 0 1rem;
+    color: #666;
+}

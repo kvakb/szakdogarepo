@@ -1,0 +1,90 @@
+{
+  "category": "camera",
+  "properties": [
+    { "name": "brand", "type": "string" },
+    { "name": "model", "type": "string" },
+    { "name": "bodyMaterial", "type": "array", "options": ["Magnesium", "Plastic", "Metal"] },
+
+    {
+      "name": "dimensions",
+      "type": "map",
+      "fields": [
+        { "name": "width", "type": "number" },
+        { "name": "height", "type": "number" },
+        { "name": "depth", "type": "number" }
+      ]
+    },
+
+    { "name": "weight", "type": "number" },
+
+    { "name": "mountType", "type": "array", "options": ["RF", "EF", "EF-M"] },
+
+    {
+      "name": "sensorSize",
+      "type": "map",
+      "fields": [
+        { "name": "width", "type": "number" },
+        { "name": "height", "type": "number" }
+      ]
+    },
+
+    { "name": "sensorType", "type": "array", "options": ["Full Frame", "APS-C", "Micro 4/3"] },
+    { "name": "megapixels", "type": "number" },
+
+    {
+      "name": "isoRange",
+      "type": "map",
+      "fields": [
+        { "name": "min", "type": "number" },
+        { "name": "max", "type": "number" }
+      ]
+    },
+
+    {
+      "name": "videoResolutions",
+      "type": "array",
+      "fields": [
+        {
+          "name": "resolution",
+          "type": "map",
+          "fields": [
+            { "name": "width", "type": "number" },
+            { "name": "height", "type": "number" },
+            { "name": "fps", "type": "array", "options": [24, 30, 60, 120] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "photoResolutions",
+      "type": "array",
+      "fields": [
+        {
+          "name": "resolution",
+          "type": "map",
+          "fields": [
+            { "name": "width", "type": "number" },
+            { "name": "height", "type": "number" }
+          ]
+        }
+      ]
+    },
+
+    { "name": "screenSize", "type": "number" },
+    { "name": "flipScreen", "type": "boolean" },
+    { "name": "minShutterSpeed", "type": "number" },
+    { "name": "maxShutterSpeed", "type": "number" },
+    { "name": "burstRate", "type": "number" },
+    { "name": "maxVideoDuration", "type": "number" },
+    { "name": "dualSdCardSlots", "type": "boolean" },
+    { "name": "mobileAppSupport", "type": "boolean" },
+    { "name": "hdmi", "type": "array", "options": ["mini", "micro", "full"] },
+    { "name": "audioJackInput", "type": "boolean" },
+    { "name": "audioJackOutput", "type": "boolean" },
+    { "name": "batteryType", "type": "string" },
+    { "name": "batteryCapacityMah", "type": "number" },
+    { "name": "maxShotsPerBattery", "type": "number" },
+    { "name": "packageContents", "type": "string" }
+  ]
+}

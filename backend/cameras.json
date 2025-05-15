@@ -1,0 +1,555 @@
+[
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Canon",
+    "status": "available",
+    "description": "Canon fényképezőgép 25.5 MP érzékelővel",
+    "price": 4995,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/canon-r50.jpg",
+    "createdAt": {
+      "_seconds": 1747110763,
+      "_nanoseconds": 0
+    },
+    "name": "Canon R50",
+    "details": {
+      "model": "canonr50",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "APS-C",
+      "megapixels": 25.5,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Canon R50 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Sony",
+    "status": "available",
+    "description": "Sony fényképezőgép 24.2 MP érzékelővel",
+    "price": 8500,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/sony-a7-iii.jpg",
+    "createdAt": {
+      "_seconds": 1747110793,
+      "_nanoseconds": 0
+    },
+    "name": "Sony A7 III",
+    "details": {
+      "model": "sonya7iii",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "Full Frame",
+      "megapixels": 24.2,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Sony A7 III váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Nikon",
+    "status": "available",
+    "description": "Nikon fényképezőgép 20.9 MP érzékelővel",
+    "price": 7200,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/nikon-z50.jpg",
+    "createdAt": {
+      "_seconds": 1747110823,
+      "_nanoseconds": 0
+    },
+    "name": "Nikon Z50",
+    "details": {
+      "model": "nikonz50",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "APS-C",
+      "megapixels": 20.9,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Nikon Z50 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Fujifilm",
+    "status": "available",
+    "description": "Fujifilm fényképezőgép 26.1 MP érzékelővel",
+    "price": 6100,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/fujifilm-x-s10.jpg",
+    "createdAt": {
+      "_seconds": 1747110853,
+      "_nanoseconds": 0
+    },
+    "name": "Fujifilm X-S10",
+    "details": {
+      "model": "xs10",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "APS-C",
+      "megapixels": 26.1,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Fujifilm X-S10 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Panasonic",
+    "status": "available",
+    "description": "Panasonic fényképezőgép 20.3 MP érzékelővel",
+    "price": 4600,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/panasonic-lumix-gx9.jpg",
+    "createdAt": {
+      "_seconds": 1747110883,
+      "_nanoseconds": 0
+    },
+    "name": "Panasonic Lumix GX9",
+    "details": {
+      "model": "gx9",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "Micro Four Thirds",
+      "megapixels": 20.3,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Panasonic Lumix GX9 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Canon",
+    "status": "available",
+    "description": "Canon fényképezőgép 20.1 MP érzékelővel",
+    "price": 9500,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/canon-eos-r6.jpg",
+    "createdAt": {
+      "_seconds": 1747110913,
+      "_nanoseconds": 0
+    },
+    "name": "Canon EOS R6",
+    "details": {
+      "model": "eosr6",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "Full Frame",
+      "megapixels": 20.1,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Canon EOS R6 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "categoryRef": "EquipmentType/00FEgbd2U7OJO1phqfUv",
+    "categoryName": "camera",
+    "brand": "Sony",
+    "status": "available",
+    "description": "Sony fényképezőgép 24.2 MP érzékelővel",
+    "price": 5400,
+    "imageUrl": "https://storage.googleapis.com/szakdolgozat-fe1ee.appspot.com/Equipment%20pictures/sony-zv-e10.jpg",
+    "createdAt": {
+      "_seconds": 1747110943,
+      "_nanoseconds": 0
+    },
+    "name": "Sony ZV-E10",
+    "details": {
+      "model": "zve10",
+      "bodyMaterial": "Magnesium alloy",
+      "dimensions": {
+        "width": 125.0,
+        "height": 90.0,
+        "depth": 70.0
+      },
+      "weight": 500,
+      "mountType": "E",
+      "sensorSize": {
+        "width": 23.5,
+        "height": 15.6
+      },
+      "sensorType": "APS-C",
+      "megapixels": 24.2,
+      "isoRange": {
+        "min": 100,
+        "max": 51200
+      },
+      "photoResolutions": [
+        {
+          "width": 6000,
+          "height": 4000
+        }
+      ],
+      "screenSize": 3,
+      "flipScreen": true,
+      "minShutterSpeed": 0.00025,
+      "burstRate": 10,
+      "maxVideoDuration": 30,
+      "dualSdCardSlots": false,
+      "mobileAppSupport": true,
+      "hdmi": [
+        "micro"
+      ],
+      "audioJackInput": true,
+      "batteryType": "Generic",
+      "batteryCapacityMah": 2000,
+      "maxShotsPerBattery": 400,
+      "packageContents": "Sony ZV-E10 váz, akku, töltő, pánt",
+      "audioJackOutput": true,
+      "maxShutterSpeed": 30,
+      "videoResolutions": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        }
+      ]
+    }
+  }
+]

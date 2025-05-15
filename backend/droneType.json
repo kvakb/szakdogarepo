@@ -1,0 +1,52 @@
+{
+  "category": "drone",
+  "properties": [
+    { "name": "brand", "type": "string" },
+    { "name": "model", "type": "string" },
+    { "name": "weight", "type": "number" },
+
+    {
+      "name": "dimensions",
+      "type": "map",
+      "fields": [
+        { "name": "width", "type": "number" },
+        { "name": "length", "type": "number" },
+        { "name": "height", "type": "number" }
+      ]
+    },
+
+    { "name": "maxFlightTime", "type": "number" },
+    { "name": "maxSpeed", "type": "number" },
+    { "name": "maxRange", "type": "number" },
+    { "name": "maxAltitude", "type": "number" },
+    { "name": "gps", "type": "boolean" },
+    { "name": "obstacleAvoidance", "type": "boolean" },
+    { "name": "returnToHome", "type": "boolean" },
+    { "name": "followMeMode", "type": "boolean" },
+
+    {
+      "name": "camera",
+      "type": "map",
+      "fields": [
+        { "name": "sensorType", "type": "string" },
+        { "name": "megapixels", "type": "number" },
+        {
+          "name": "videoResolution",
+          "type": "map",
+          "fields": [
+            { "name": "width", "type": "number" },
+            { "name": "height", "type": "number" },
+            { "name": "fps", "type": "array", "options": [24, 30, 60, 120] }
+          ]
+        },
+        { "name": "gimbal", "type": "boolean" }
+      ]
+    },
+
+    { "name": "batteryCapacityMah", "type": "number" },
+    { "name": "chargingTimeMinutes", "type": "number" },
+    { "name": "remoteController", "type": "boolean" },
+    { "name": "mobileAppSupport", "type": "boolean" },
+    { "name": "packageContents", "type": "string" }
+  ]
+}

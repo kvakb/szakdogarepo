@@ -1,0 +1,108 @@
+.manage-rentals-container {
+    padding: 2rem;
+    background-color: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+
+.manage-rentals-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.rental-filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.rental-filters label {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    font-weight: bold;
+}
+
+.rental-filters input,
+.rental-filters select {
+    margin-top: 4px;
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-weight: 500;
+}
+
+.rental-card-admin {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rental-card-admin:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.rental-card-admin p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.rental-card-admin select {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    font-weight: 500;
+}
+
+.rental-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0;
+    margin-top: 0.4rem;
+    border-bottom: 1px dashed #bbb;
+}
+
+.item-status-select {
+    margin-left: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+}
+
+.delete-rental-button {
+    margin-top: 1rem;
+    background: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-rental-button:hover {
+    background: #e60000;
+}

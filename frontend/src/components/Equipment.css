@@ -1,0 +1,110 @@
+.rentals-container {
+    font-family: 'Poppins';
+    padding: 20px;
+}
+
+.rentals-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.categories button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.rentals-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rental-item {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.rental-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.rental-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.rental-item p {
+    margin: 5px 0;
+}
+
+.rental-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rental-item button:hover {
+    background-color: #0056b3;
+}
+
+.datepicker-wrapper {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.datepicker-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.datepicker-wrapper .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.datepicker-wrapper input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

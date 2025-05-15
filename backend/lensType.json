@@ -1,0 +1,43 @@
+{
+  "category": "objective",
+  "properties": [
+    { "name": "brand", "type": "string" },
+    { "name": "model", "type": "string" },
+    { "name": "mountType", "type": "array", "options": ["RF", "EF", "EF-M", "F", "Z", "E", "X", "MFT"] },
+    { "name": "optimalSensorSize", "type": "array", "options": ["Full Frame", "APS-C", "Micro 4/3"] },
+    {
+      "name": "focalLength",
+      "type": "map",
+      "fields": [
+        { "name": "min", "type": "number" },
+        { "name": "max", "type": "number" }
+      ]
+    },
+    {
+      "name": "aperture",
+      "type": "map",
+      "fields": [
+        { "name": "min", "type": "number" },
+        { "name": "max", "type": "number" }
+      ]
+    },
+    { "name": "lensType", "type": "array", "options": ["Prime", "Zoom"] },
+    { "name": "imageStabilization", "type": "boolean" },
+    { "name": "autofocus", "type": "boolean" },
+    { "name": "isMacro", "type": "boolean" },
+    { "name": "filterSize", "type": "number" },
+    {
+      "name": "dimensions",
+      "type": "map",
+      "fields": [
+        { "name": "diameter", "type": "number" },
+        { "name": "length", "type": "number" }
+      ]
+    },
+    { "name": "weight", "type": "number" },
+    { "name": "weatherSealed", "type": "boolean" },
+    { "name": "minFocusDistance", "type": "number" },
+    { "name": "maxMagnification", "type": "number" },
+    { "name": "packageContents", "type": "string" }
+  ]
+}

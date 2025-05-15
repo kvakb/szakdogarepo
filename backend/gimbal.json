@@ -1,0 +1,33 @@
+{
+  "category": "gimbal",
+  "properties": [
+    { "name": "brand", "type": "string" },
+    { "name": "model", "type": "string" },
+    { "name": "axisCount", "type": "number", "unit": "tengely" },
+
+    { "name": "maxPayloadKg", "type": "number", "unit": "kg" },
+    { "name": "weight", "type": "number", "unit": "g" },
+
+    {
+      "name": "dimensions",
+      "type": "map",
+      "fields": [
+        { "name": "width", "type": "number", "unit": "mm" },
+        { "name": "height", "type": "number", "unit": "mm" },
+        { "name": "depth", "type": "number", "unit": "mm" }
+      ]
+    },
+
+    { "name": "batteryLifeHours", "type": "number", "unit": "óra" },
+    { "name": "batteryType", "type": "string" },
+    { "name": "chargingTimeHours", "type": "number", "unit": "óra" },
+
+    { "name": "detachableBattery", "type": "boolean" },
+    { "name": "cameraControlSupport", "type": "boolean" },
+    { "name": "appSupport", "type": "boolean" },
+    { "name": "wirelessConnection", "type": "array", "options": ["Bluetooth", "Wi-Fi", "None"] },
+    { "name": "screen", "type": "boolean" },
+
+    { "name": "packageContents", "type": "string" }
+  ]
+}

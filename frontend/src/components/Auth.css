@@ -1,0 +1,88 @@
+/* Auth.css */
+
+.auth-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins';
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.auth-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.auth-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.95rem;
+}
+
+.auth-form input {
+    margin-top: 0.3rem;
+    padding: 0.75rem;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.auth-form input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.2);
+    outline: none;
+}
+
+.auth-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.auth-form button:hover {
+    background: #1c6391;
+}
+
+.error, .success {
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.error {
+    background-color: #ffe6e6;
+    color: #c0392b;
+    border: 1px solid #e74c3c;
+}
+
+.success {
+    background-color: #e8f8f5;
+    color: #27ae60;
+    border: 1px solid #2ecc71;
+}
