@@ -13,9 +13,9 @@ const app = express();
 const port = 5100;
 
 const Stripe = require('stripe');
-const stripe = Stripe('sk_test_51RIrq1P926U3dZALJ4zHWwKRqtmyRPE2tInMrFl62lkGyRTmYZxcpHfLMEeXNf7iZD5iPXitaVmV4XbvkNH2Ph9j00bUllddOR');
+const stripe = Stripe('');
 
-const endpointSecret = 'whsec_755c03a014de3d44a04a37bd6bcb0ff132420c895a76f4d3ce27868c301953cc';
+const endpointSecret = '';
 
 function generateReadableRentalId() {
     const now = new Date();
