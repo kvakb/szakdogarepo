@@ -74,9 +74,6 @@ async function createRental(userId, cartItems, rentalId) {
 }
 
 
-
-
-// Middlewares
 app.use(cors({
     origin: 'http://localhost:3000',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
@@ -92,7 +89,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 
 const adminCheck = async (req, res, next) => {
-    // Például JWT tokenből vagy body-ból kinyert uid alapján...
+
     const token = req.headers.authorization?.split('Bearer ')[1];
     if (!token) return res.status(401).json({ error: "Unauthorized: No token" });
     try {
@@ -359,7 +356,6 @@ app.put('/profile', async (req, res) => {
 
         await admin.auth().updateUser(uid, updateFields);
 
-        // Firestore frissítés
         await db.collection('users').doc(uid).update({
             name,
             email,
@@ -498,7 +494,6 @@ app.put('/api/equipment/:id', upload.single('image'), async (req, res) => {
 
         let imageUrl = docSnapshot.data().imageUrl;
 
-        // Ha új képet töltöttek fel, akkor mentsük el a Firebase Storage-ba
         if (req.file) {
             const bucket = admin.storage().bucket();
             const fileName = `Equipment pictures/${uuidv4()}${path.extname(req.file.originalname)}`;
@@ -683,7 +678,7 @@ app.get('/api/cart-blocks/:equipmentId', async (req, res) => {
             });
         }
 
-        // Bérlésekből ellenőrzése adott eszköz szerint
+
         const rentalsSnapshot = await db.collection('rentals').get();
         rentalsSnapshot.forEach(doc => {
             const rental = doc.data();
@@ -839,7 +834,7 @@ app.put('/api/admin/rentals/:rentalId/items/:itemIndex/status', async (req, res)
     const snap = await rentalRef.get();
     if (!snap.exists) return res.status(404).json({ error: 'Bérlés nem található.' });
 
-    // Fetch and clone items array
+
     const data = snap.data();
     const items = Array.isArray(data.items) ? [...data.items] : [];
     if (idx < 0 || idx >= items.length) {
@@ -847,7 +842,7 @@ app.put('/api/admin/rentals/:rentalId/items/:itemIndex/status', async (req, res)
     }
     items[idx] = { ...items[idx], status };
 
-    // Persist updated array back to Firestore
+
     await rentalRef.update({ items });
     res.json({ message: 'Eszköz státusz frissítve.' });
 });
